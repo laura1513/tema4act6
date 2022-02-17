@@ -10,7 +10,10 @@ public static double celsiustofahrenheit(double num) {
 }
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        double uno=-5.0;
+        double dos=0.0;
+        double tres=15.0;
+        double cuatro=32.0;
     }
     
 }
