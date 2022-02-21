@@ -29,6 +29,22 @@ public static int roman2dec(String uno){
 public static String dec2roman(int dos){
     return "XXI";
 }
+/**
+ * 1 dollar son 0.88€
+ * @param d
+ * @return 
+ */
+public static double dollar2euro(double d) {
+    return d*0.88;
+}
+/**
+ * 1 euro son 1.13$
+ * @param e
+ * @return 
+ */
+public static double euro2dollar(double e) {
+    return e*1.13;
+}
     public static void main(String[] args) {
         // TODO code application logic here
         //Variables y llamada a los métodos del ejercicio 6 de la pagina 69
@@ -49,6 +65,12 @@ public static String dec2roman(int dos){
         int romanodos = 2016;
         roman2dec(romanouno);
         dec2roman(romanodos);
+        
+        //Variables y llamadas a los métodos de la segunda parte del ejercicio 7 de la página 69
+        double dolar=10.5;
+        double euro=20.30;
+        dollar2euro(dolar);
+        euro2dollar(euro);
     }
     
 }
