@@ -14,6 +14,14 @@ public static double celsiustofahrenheit(double num) {
         double dos=0.0;
         double tres=15.0;
         double cuatro=32.0;
+        celsiustofahrenheit(uno);
+        celsiustofahrenheit(dos);
+        celsiustofahrenheit(tres);
+        celsiustofahrenheit(cuatro);
+        fahrenheittocelsius(uno);
+        fahrenheittocelsius(dos);
+        fahrenheittocelsius(tres);
+                
     }
     
 }
