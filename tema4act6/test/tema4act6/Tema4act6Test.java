@@ -12,7 +12,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Clase de test para testear la clase de Tema4act6
  * @author laura
  */
 public class Tema4act6Test {
@@ -37,7 +37,7 @@ public class Tema4act6Test {
     }
 
     /**
-     * Test donde se comprueba la solución con 5 grados ºF a ºC
+     * Test donde se comprueba la solución con -5 grados ºF a ºC
      */
     @Test
     public void testFahrenheittocelsiu_5() {
@@ -153,7 +153,7 @@ public class Tema4act6Test {
         //fail("The test case is a prototype.");
     }
     /**
-     * La X significa 10, la I significa I
+     * La X significa 10, la I significa 1
      */
     @Test
     public void testRoman2dec() {
@@ -163,7 +163,7 @@ public class Tema4act6Test {
         int result = Tema4act6.roman2dec(uno);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -177,11 +177,11 @@ public class Tema4act6Test {
         String result = Tema4act6.dec2roman(dos);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
     /**
-     * Test of dollar2euro method, of class Tema4act6.
+     * Testea 10.5$ para ver si son 9.39€
      */
     @Test
     public void testDollar2euro() {
@@ -195,7 +195,7 @@ public class Tema4act6Test {
     }
 
     /**
-     * Test of euro2dollar method, of class Tema4act6.
+     * Testea 20.30€ para ver si son 22.72$
      */
     @Test
     public void testEuro2dollar() {
