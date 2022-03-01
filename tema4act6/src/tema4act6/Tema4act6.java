@@ -19,12 +19,16 @@ public static double celsiustofahrenheit(double num) {
 }
 /**
  * Método vacío ya que no se puede implementar el método, pasa el número romano XXI a decimal
+ * @param uno
+ * @return 
  */
 public static int roman2dec(String uno){
     return 21;
 }
 /**
  * Método vacío ya que no se puede implementar el método, pasa el número decimal 2016 a romano
+ * @param dos
+ * @return 
  */
 public static String dec2roman(int dos){
     return "XXI";
